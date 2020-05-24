@@ -13,19 +13,17 @@
 <body>
     <header>
         <div class="container">
-            <div class="row">
-                <div class="authorisation__button__wrapper col-12 justify-content-center">
+            <div class="row flex-md-row-reverse justify-content-md-between">
+                <div class="authorisation__button__wrapper col-12 col-md-4 justify-content-center">
                     <button class="authorisation__button">Log in</button>
                     <button class="authorisation__button">Sign up</button>
                 </div>
-                <div class="logo__wrapper col-12">
+                <div class="logo__wrapper col-12 col-md-4">
                     <a href="" class="logo__link">URLAUBSGLÜCK</a>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
-                <div class="header__content-wrapper col-12">
+                <div class="header__content-wrapper col-12 justify-content-md-center">
                     <h1 class="main__title">share your holiday dreams</h1>
                     <p class="main__title__description">And find the perfect partner to fullfill it</p>
                     <button class="find__partner__button">Find your holiday partner</button>
@@ -35,34 +33,46 @@
     </header>
     <main>
         <section class="partners container">
-            <div class="row">
-                <div class="section__title__wrapper col-12">
-                    <h2 class="section__title">Meet a partner for your best holiday</h2>
-                </div>
+            <div class="row section__title__wrapper">
+                <h2 class="section__title col-12">Meet a partner for your best holiday</h2>
             </div>
-            <div class="row">
-                <ul class="partners__list col-12">
-                    <li class="partners__list__item col-12">
+            <ul class="row partners__list justify-content-center">
+                <li class="partners__list__item col-12 col-md-5 col-lg-3 partner1__list__item">
+                    <div class="partner__image__wrapper partner1__image__wrapper">
                         <img src="./img/partner1.png" alt="first partner" class="partner__image">
-                        <p class="partner__name">Bradley Hunter</p>
-                        <p class="partner__description">Based in Chicago. I love playing tennis and loud music.</p>
-                    </li>
-                    <li class="partners__list__item col-12">
+                    </div>
+                    <p class="partner__name">Bradley Hunter</p>
+                    <p class="partner__description">Based in Chicago. I love playing tennis and loud music.</p>
+                </li>
+                <li class="partners__list__item col-12 col-md-5 col-lg-3 partner2__list__item">
+                    <div class="partner__image__wrapper partner2__image__wrapper">
                         <img src="./img/partner2.png" alt="second partner" class="partner__image">
-                        <p class="partner__name">Lucas Marsha</p>
-                        <p class="partner__description">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-                    </li>
-                    <li class="partners__list__item col-12">
+                    </div>
+                    <p class="partner__name">Lucas Marsha</p>
+                    <p class="partner__description">I get my inspiration from nature and objects around me. I have a
+                        passion to colours, typography and skateboards.</p>
+                </li>
+                <li class="partners__list__item col-12 col-md-5 col-lg-3 partner3__list__item">
+                    <div class="partner__image__wrapper partner3__image__wrapper">
                         <img src="./img/partner3.png" alt="third partner" class="partner__image">
-                        <p class="partner__name">Heather Walker</p>
-                        <p class="partner__description">I'm a happy person that loves cats and climbing on mountains.</p>
-                    </li>
-                    <li class="partners__list__item col-12">
+                    </div>
+                    <p class="partner__name">Heather Walker</p>
+                    <p class="partner__description">I'm a happy person that loves cats and climbing on mountains.
+                    </p>
+                </li>
+                <li class="partners__list__item col-12 col-md-5 col-lg-3 partner4__list__item">
+                    <div class="partner__image__wrapper partner4__image__wrapper">
                         <img src="./img/parther4.png" alt="fourth partner" class="partner__image">
-                        <p class="partner__name">Bradley Hunter</p>
-                        <p class="partner__description">Based in Chicago. I love playing tennis and loud music.</p>
-                    </li>
-                </ul>
+                    </div>
+                    <p class="partner__name">Bradley Hunter</p>
+                    <p class="partner__description">Based in Chicago. I love playing tennis and loud music.</p>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-12 other__partners__button__wrapper">
+                    <button class="other__partners__button">See other partners</button>
+                </div>
+
             </div>
         </section>
     </main>
