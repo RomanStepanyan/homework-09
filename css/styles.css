@@ -243,16 +243,12 @@ header {
     cursor: pointer;
     margin: 0 auto;
 }
-.other__partners__button__wrapper {
-    /* padding: 0 56px; */
-}    
+   
 .other__partners__button:hover {
     background-color: rgb(255, 78, 80);
     color: rgb(255, 255, 255);
     transition: all 500ms linear;
 }
-  
-
 
 @media screen and (max-width: 767px) {
     header {
@@ -292,12 +288,15 @@ header {
     .main__title {
         font-size: 52px;
         line-height: 1.2;
-        margin-bottom: 18px;
+        margin-bottom: 38px;
         padding: 0 100px;
     }
     .main__title__description {
         font-size: 24px;
-        padding-bottom: 34px;
+        margin-bottom: 34px;
+    }
+    .partners__list {
+        margin-bottom: 40px;
     }    
 
     .partners__list__item {
@@ -317,15 +316,15 @@ header {
         order: 2;
         margin-bottom: 0;
     }
-    
-    .other__partner__button-wrapper {
-        padding: 40px 0 40px;
-    }
+   
     .other__partners__button {
         width: 192px;
     }
     .find__partner__button {
         width: 226px;
+    }
+    .partners {
+        padding-bottom: 40px;
     }
 }
 @media screen and (min-width: 992px) {
@@ -342,11 +341,12 @@ header {
     .section__title__wrapper {
         margin-bottom: 34px;
     }
-    .other__partners__button__wrapper {
-        padding: 40px 0 72px;
-    }
+
     .partners__list__item {
         margin-bottom: 0;
+    }
+    .partners {
+        padding-bottom: 72px;
     }
 }
 
